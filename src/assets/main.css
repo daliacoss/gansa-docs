@@ -1,0 +1,113 @@
+body {
+	font: 12pt helvetica;
+	background: #999;
+	margin: 0;
+	min-height: 100%;
+}
+
+#container{
+	margin: 0;
+	top: 0;
+	bottom: 0;
+	background: #999;
+	min-height: 100%;
+	width: 100%;
+
+	position: absolute;
+}
+
+#main_column {
+	margin-top: 0;
+	margin-left: 200px;
+	background: #eee;
+	min-height: 100%;
+}
+
+#content {
+	padding: 10pt 8pt;
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    font-size: 0;
+}
+
+.nav_link{
+	font-size: 12pt;
+	background: #ccc;
+	margin-top: 4px;
+
+	color: #107010;
+
+	width: 186px;
+
+    padding: 4pt 5px;
+	display: inline-block;
+}
+
+.nav_link:hover, .nav_link.current {
+	background: #99aa99;
+	color: #fff;
+}
+
+.nav_link.sub {
+	/*margin: 4px 4px 0 40px;*/
+	width: 156px;
+}
+
+.nav_link_spacer {
+	font-size: 12pt;
+	margin-top: 4px;
+	width: 30px;
+	padding: 4pt 0;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #207020;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1{
+	margin: 0;
+}
+
+pre {
+	border: 1px solid #000;
+	background: #fff;
+	padding: 4pt;
+	overflow: auto;
+}
+
+#footer {
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 0;
+}
+
+#previous {
+	text-align: right;
+	min-width: 48%;
+	display: inline-block;
+	font-size: 12pt;
+}
+
+#divider{
+	text-align: center;
+	width: 4%;
+	display: inline-block;
+	font-size: 12pt;
+}
+
+#next {
+	text-align: left;
+	min-width: 48%;
+	display: inline-block;
+	font-size: 12pt;
+}
+

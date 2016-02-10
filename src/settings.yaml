@@ -1,0 +1,19 @@
+environment:
+  assets: assets
+  pages: pages
+  templates: templates
+  user: user.yaml
+  views: views.yaml
+pages:
+  extensions:
+    - markdown.extensions.toc
+  extension_options:
+    markdown.extensions.toc:
+      baselevel: 1
+templates:
+  default_block: content
+  builtins:
+    - len
+    - type
+    - list
+    - print

@@ -1,0 +1,38 @@
+- template: base.jade
+  route: ""
+  context:
+    nav:
+      - name: "Home"
+        url: "index.html"
+      - name: "Installation"
+        url: "installation.html"
+      - name: "Basic usage"
+        url: "basicusage.html"
+      - name: "Site configuration"
+        url: "configuration.html"
+      - name: "Views"
+        url: "views.html"
+      - name: "Templates"
+        url: "templates.html"
+      - name: "Pages"
+        url: "pages.html"
+      - name: "Databases"
+        url: "databases.html"
+      - name: "Callbacks"
+        url: "callbacks.html"
+      - name: "Command-line reference"
+        url: "commandline.html"
+      - name: "API reference"
+        url: "api.html"
+  subviews:
+    - route: index.html
+    - route: installation.html
+    - route: basicusage.html
+    - route: configuration.html
+    - route: views.html
+    - route: templates.html
+    - route: pages.html
+    - route: databases.html
+    - route: callbacks.html
+    - route: commandline.html
+    - route: api.html

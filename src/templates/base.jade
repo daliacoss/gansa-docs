@@ -1,0 +1,43 @@
+doctype html
+html
+	head
+		title= title
+		link(rel="stylesheet", href="main.css", type="text/css")
+		meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+	body
+		#container
+
+			#sidebar
+				each nav_item in nav
+					if nav_item["url"] == route
+						.nav_link.current
+							strong= nav_item["name"]
+						br
+						if sections
+							each section in sections
+								- var u = "#" + section.lower().replace(" ", "-").replace(".", "").replace("(","").replace(")","")
+								.nav_link_spacer
+								a(href=u)
+									.nav_link.sub= section
+								br
+					else
+						a(href=nav_item["url"])
+							.nav_link= nav_item["name"]
+							br
+
+			#main_column
+				#content
+					block content
+				div#footer
+					each i in range(len(nav))
+						if nav[i]["url"] == route
+							#previous
+								if i > 0
+									- var prev = nav[i-1]
+									a(href=prev["url"])= "<< " + prev["name"]
+							#divider |
+							#next
+								if i < len(nav) - 1
+									- var next = nav[i+1]
+									a(href=next["url"])= next["name"] + " >>"
+				br
