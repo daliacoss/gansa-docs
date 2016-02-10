@@ -28,6 +28,8 @@ Gansa is copyright 2016 Decky Coss.
 
 Gansa is licensed under the terms of the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.en.html).
 
+This documentation is copyright 2016 Decky Coss and is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/), except where indicated on the [documentation source code site](https://github.com/deckycoss/gansa-docs).
+
 ### How to license a Gansa project ###
 
 A project created using Gansa only needs to be licensed under the GPL where it contains source code that falls under the GPL's definition of a "covered work"—that is, "either the unmodified Program or a work based on the Program". (In this case, "the Program" refers to Gansa.)
