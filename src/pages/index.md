@@ -19,6 +19,8 @@ Downloads
 
 [Gansa source code](https://github.com/deckycoss/gansa)
 
+[Documentation copy](http://cosstropolis.com/static/files/gansa-docs.zip)
+
 [Documentation source code](https://github.com/deckycoss/gansa-docs) (a good example Gansa project!)
 
 License
