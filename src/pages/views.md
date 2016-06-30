@@ -38,7 +38,7 @@ Here is the specification for a view object:
 
 * **context** (dictionary): a table of context variables.
 * **context_processor** ([Python object](configuration.html#python-object)): a reference to a Python callable (that is, a function or an object that can be called like a function) that returns a table of context variables. For more information, see the ["Callbacks"](callbacks.html#context-processors) chapter.
-* **pages** (string or list of strings): the names of Markdown files to fill the template with. If undefined for a terminal view, Gansa will attempt to find a page with the same name as the route, but with a .md extension instead of .html. **This property cannot be inherited and is ignored on parent views.**
+* **pages** (string or list of strings): the names of Markdown files to fill the template with. If undefined for a terminal view, Gansa will attempt to find a page with the same name as the route, but with a .md extension instead of .html.
 * **query** (dictionary or [Python expression](configuration.html#python-expression)): a set of properties or expressions that retrieve a portion of the project's database, to be passed to the view template. For more information, see the ["Databases"](databases.html) chapter.
 * **route** (string): the name of the file or folder that the view will generate. **This property cannot be inherited.**
 * **subviews** (list): a list of the view's subviews. Specifying this parameter will automatically turn the view into a parent view. **This property cannot be inherited.**

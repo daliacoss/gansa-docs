@@ -34,7 +34,7 @@ This documentation is copyright 2016 Decky Coss and is licensed under a [Creativ
 
 ### How to license a Gansa project ###
 
-A project created using Gansa only needs to be licensed under the GPL where it contains source code that falls under the GPL's definition of a "covered work"—that is, "either the unmodified Program or a work based on the Program". (In this case, "the Program" refers to Gansa.)
+A project created using Gansa only needs to be licensed under the GPL where it contains source code that falls under the GPL's definition of a "covered work"—that is, "either the unmodified Program or a work based on the Program". (In this case, "the Program" refers to Gansa or any other GPL-licensed work.)
 
 For example, imagine that a project contains some CSS and JavaScript asset files, as well as two Python modules, "callbacks.py" and "models.py". Both modules are required in order to render (i.e., run the `gansa build` command on) the project, but only callbacks.py interfaces with the Gansa API directly. callbacks.py would need to be licensed under the GPL. models.py would need to be licensed under the GPL or a GPL-compatible license, because it is used in conjunction with the GPL-licensed callbacks.py. The asset files would not need to be licensed under any GPL-compatible license, because it is possible to render the project without them.
 
